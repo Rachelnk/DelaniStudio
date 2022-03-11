@@ -18,10 +18,29 @@ div.services {
 div.contact {
   background-image: url(../assets/backgrounds/c_image.jpg);
   color: white;
+  max-height: fit-content;
+
 }
 .about-us, .services, .portfolio, .portfolio-list {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
+.services {
+  padding-top: 60px ;
+  padding-bottom: 60px;
+  max-height:fit-content;
+}
+.row {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+
+}
+#design-detail, #development-detail, #product-detail {
+  display: none;
+}
+
 
 
 
