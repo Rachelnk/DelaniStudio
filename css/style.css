@@ -2,11 +2,15 @@ body {
   font-family: 'Mukta', sans-serif;
   margin: 0;
 }
-.jumbotron {
+.jumbotron, .contact {
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-size: cover;
   background-position: center center;
   text-align: center;
   background-repeat: no-repeat;
   max-height: 100%;
+}
+div.contact {
+  background-image: url(../assets/backgrounds/c_image.jpg);
+
 }
