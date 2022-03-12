@@ -84,43 +84,61 @@
 
     <div class="portfolio-list">
       <h1>PORTFOLIO</h1>
-        <!-- <div>
-          <div class="col-md-4">
+        <div id="portfolio-content" >
+          <div class="col-md-3" id="work-image1">
             <img src="./assets/portfolio/work1.jpg" alt="">
+            <p id="work-detail2">Jim Carey</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3" id="work-image2">
             <img src="./assets/portfolio/work2.jpg" alt="">
+            <p id=""></p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <img src="./assets/portfolio/work3.jpg" alt="">
+            <p id=""></p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <img src="./assets/portfolio/work4.jpg" alt="">
+            <p id=""></p>
           </div>
-          <div class="col-md-4">
-            <img src="" alt="">
+          <div class="col-md-3">
+            <img src="./assets/portfolio/work5.jpg" alt="">
+            <p id=""></p>
           </div>
-          <div class="col-md-4">
-            <img src="" alt="">
+          <div class="col-md-3">
+            <img src="./assets/portfolio/work6.jpg" alt="">
+            <p id=""></p>
           </div>
-          <div class="col-md-4">
-            <img src="" alt="">
+          <div class="col-md-3">
+            <img src="./assets/portfolio/work7.jpg" alt="">
+            <p id=""></p>
+          </div>
+          <div class="col-md-3">
+            <img src="./assets/portfolio/work8.jpg" alt="">
+            <p id=""></p>
           </div>
 
         </div>
-         -->
+        
       
       
 
     </div>
     <div class="contact">
       <h1>CONTACT US</h1>
-      <form action="">
-        <input type="text" name="fullname" id="fullname" placeholder="Name">
-        <input type="email" name="email" id="email" placeholder="Email"> <br>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here.."></textarea>
-        <input type="text" name="submit" value="Submit">
-      </form>
+      <form id="mc-embedded-subscribe-form" action="https://gmail.us14.list-manage.com/subscribe/post?u=12035c8aec58f011f097e6428&amp;id=bd7030af98" method="POST" >
+      
+
+        <div class="form-group form-inline">
+          <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Name">
+        <input type="text" class="form-control" name="email" id="email" placeholder="Email"> <br>
+        </div>
+        <div class="form-group">
+          <textarea name="message" class= "form-control" id="message" cols="20" rows="8" placeholder="Type your message here.."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary col-md-1">SUBMIT</button>
+        
+        </form>
 
     </div>
     <footer>
@@ -133,8 +151,17 @@
       <img src="./assets/social_icons/skype.png" alt="Skype Icon">
       <img src="./assets/social_icons/stumble_upon.png" alt="">
       <img src="./assets/social_icons/twitter.png" alt="Twitter Icon">
-      <img src="./assets/social_icons/you_tube.png" alt="Youtube Icon">
+      <img src="./assets/social_icons/you_tube.png" alt="Youtube Icon"> <br>
+      <p>DELANI STUDIO</p> 
+      <p id="currentyear"></p>
     </footer>
+    <script>
+      const d = new Date();
+      let year =d.getFullYear();
+      document.getElementById("currentyear").innerHTML = year;
+
+    </script>
+    
 
   </div>  
 
