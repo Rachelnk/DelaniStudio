@@ -22,7 +22,7 @@ There are no known bugs at the moment.
 ## Technologies used
 * HTML
 * CSS
-* Javasxript
+* Javascript
 * jQuery
 ## Support and contact details
 ##### You can reach out via `rachael.kiarie@student.moringaschool.com`
