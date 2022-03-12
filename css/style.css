@@ -1,5 +1,5 @@
 body {
-  font-family: 'Mukta', sans-serif;
+
   margin: 0;
 }
 .jumbotron, .contact, .services {
@@ -10,21 +10,31 @@ body {
   background-repeat: no-repeat;
   max-height: 100%;
   color: white;
+  
+}
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+}
+p {
+  font-family: 'Francois One', sans-serif;
+  font-size: 20px;
 }
 div.services {
   background-image: url(../assets/backgrounds/s_image.jpg);
   color: white;
 }
 div.contact {
-  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-image: url(../assets/backgrounds/c_image.jpg); 
   color: white;
-  /* max-height:max-content; */
+  position: relative;
 
 }
 .about-us, .services, .portfolio, .portfolio-list {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
+
 }
 .services {
   padding-top: 60px ;
@@ -39,6 +49,9 @@ div.contact {
 }
 #design-detail, #development-detail, #product-detail {
   display: none;
+}
+.portfolio {
+  padding-bottom:20px;
 }
 #portfolio-content {
   margin-left:18%;
@@ -79,8 +92,8 @@ div.contact {
 }
 .contact h1 {
   text-align: center;
-  margin-top: 30px;
-  padding-top: 40px;
+  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20p
 }
 input[type=text], input[type=text], #message{
@@ -88,10 +101,10 @@ input[type=text], input[type=text], #message{
   font-size: 20px;
   color:white;
 }
-.form-control::-webkit-input-placeholder{
+.form-control::-webkit-input-placeholder {
   color: white;
 }
-#fulname {
+#fullname {
   width:30%;
   margin-left: 18%;
   margin-right: 30px;
@@ -100,14 +113,20 @@ input[type=text], input[type=text], #message{
   width:30%;
 }
 #message {
-  margin-left: 28%;
+  margin-left: 29%;
   width:60%;
+  }
+  textarea[type=text] {
+    background-color: transparent;
+    color: white;
+  }
+button{
+  margin-left: 30%;
+  /* padding-bottom: 10px; */
+  /* margin-bottom: 10px; */
+  position:absolute;  
+  
 }
-/* button{
-  margin-left: 20%;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-} */
 footer{
   text-align: center;
   padding-top: 30px;
