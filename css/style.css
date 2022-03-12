@@ -1,5 +1,8 @@
-body {
-
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body{
   margin: 0;
 }
 .jumbotron, .contact, .services {
@@ -15,6 +18,9 @@ body {
 h1 {
   font-family: 'Architects Daughter', cursive;
   font-size: 30px;
+}
+h1:hover {
+  color: red;
 }
 p {
   font-family: 'Francois One', sans-serif;
@@ -82,14 +88,7 @@ div.contact {
   
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
 
-}
-.grid-item {
-  padding: 20px;
-}
 .contact h1 {
   text-align: center;
   margin-top: 20px;
