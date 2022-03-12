@@ -20,7 +20,7 @@ h1 {
   font-size: 30px;
 }
 h1:hover {
-  color: red;
+  color: blue;
 }
 p {
   font-family: 'Francois One', sans-serif;
