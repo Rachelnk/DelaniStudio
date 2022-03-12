@@ -31,8 +31,26 @@ $(document).ready(function(){
     $("#dev-showing").toggle();
 
 
+  });
+});
+$(document).ready(function(){
+
+
+  // Get value of user's inputs from the user.
+  $("#mc-embedded-subscribe-form").submit(function(){
+    var fname = $("#fullname").val();
+    var email = $("#email").val();
+    var comment =$("#message").val();
+    
+    if (fname && email) {
+      alert (fname + ", thank you for flling out the form. We have received your message.");
+    }
+
+      else {
+        alert("Please enter your name and email.");
+      }   
+
   })
+});
   
 
-
-});
